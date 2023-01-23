@@ -21,6 +21,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 450px;
 }
 
 .container .points{
@@ -106,6 +107,9 @@ body{
 }
 
 @media screen and (max-width:500px){
+    .container{
+        width: 300px;
+    }
     .boxes{
         width: 300px;
         height: 300px;
@@ -122,7 +126,7 @@ body{
     .popup h1{
         font-size: 2.2rem;
     }
-    .container .points{
-        width: 300px;
-    }
+}
+
+@media screen and (max-width:700px){
 }
