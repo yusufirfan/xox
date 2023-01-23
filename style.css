@@ -24,7 +24,7 @@ body{
 }
 
 .container .points{
-    width: 100%;
+    width: 450px;
 }
 
 .container h1{
@@ -37,6 +37,11 @@ body{
     font-size: 1.5rem;
     text-align: center;
     width: 450px;
+}
+
+.container .msg a{
+    text-decoration: underline;
+    color: white;
 }
 
 .boxes{
