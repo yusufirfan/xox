@@ -131,5 +131,27 @@ body{
     }
 }
 
-@media screen and (max-width:700px){
+@media screen and (max-height:700px){
+    .container{
+        width: 240px;
+    }
+    .boxes{
+        width: 240px;
+        height: 240px;
+    }
+    .box{
+        width: 80px;
+        height: 80px;
+        font-size: 1.5rem;
+    }
+    .popup{
+        height: 240px;
+        width: 240px;
+    }
+    .popup h1{
+        font-size: 1.5rem;
+    }
+    .container .msg{
+        width: 240px;
+    }
 }
